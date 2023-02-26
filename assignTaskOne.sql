@@ -1,0 +1,23 @@
+-- create database Employee; 
+-- create table EmployeeDetails(
+-- Emp_id int not null primary key,
+-- Emp_name varchar(30) not null,
+-- Job_name varchar(30) not null,
+-- Manager_id int not null,
+-- Hire_date varchar(10) not null,
+-- Salary int not null,
+-- Dep_id int not null
+-- );
+-- insert into employeedetails values(1,"Singh","President",68319,"1991-11-18",6000,1001);
+-- insert into employeedetails values(2,"James","Full stack developer",4384,"2002-2-12",45000,636);
+-- insert into employeedetails values(3,"Emma","Devops",3734,"2007-12-4",17000,629);
+-- insert into employeedetails values(4,"Elizabeth","Management",7612,"1997-2-17",25000,239);
+-- insert into employeedetails values(5,"Jack","Product manager",1836,"2018-1-6",34000,396);
+-- insert into employeedetails values(6,"Raj","Full stack developer",6690,"2000-21-1",29000,156);
+-- insert into employeedetails values(7,"Grace","Data science",9045,"2006-4-7",10000,719);
+-- insert into employeedetails values(8,"Daniel","Software testing",7632,"2010-10-2",26000,494);
+-- insert into employeedetails values(9,"Joseph","Software developer",1730,"1998-3-28",30450,291);
+-- insert into employeedetails values(10,"Ayar","Product manager",2910,"2021-8-22",23500,139);
+-- select Salary from EmployeeDetails;
+-- select distinct Job_name from EmployeeDetails;
+-- update EmployeeDetails set Salary = 49999 where Emp_name="Raj";
